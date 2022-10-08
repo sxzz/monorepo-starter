@@ -1,0 +1,27 @@
+{
+  "name": "@scope/foo",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.12.2",
+  "description": "My awesome typescript library",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup && tsx ../../scripts/postbuild.mts"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.19.0"
+  }
+}
