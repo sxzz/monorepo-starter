@@ -2,7 +2,7 @@
   "name": "project-name-monorepo",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@7.12.2",
+  "packageManager": "pnpm@8.3.1",
   "description": "Monorepo of project-name",
   "license": "MIT",
   "scripts": {
@@ -19,7 +19,7 @@
     "@changesets/cli": "^2.26.1",
     "@sxzz/eslint-config-prettier": "^2.4.6",
     "@sxzz/eslint-config-ts": "^2.4.6",
-    "@types/node": "*",
+    "@types/node": "^18.16.1",
     "eslint": "^8.39.0",
     "eslint-define-config": "^1.19.0",
     "fast-glob": "^3.2.12",
