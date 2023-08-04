@@ -8,7 +8,7 @@
   "scripts": {
     "build": "pnpm run --filter=\"./packages/*\" build",
     "dev": "pnpm run --filter=\"./packages/*\" dev",
-    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+    "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
     "test": "vitest",
     "publish": "pnpm build && changeset publish",
@@ -17,11 +17,10 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.2",
-    "@sxzz/eslint-config-prettier": "^2.4.6",
-    "@sxzz/eslint-config-ts": "^2.4.6",
+    "@sxzz/eslint-config": "^3.3.2",
+    "@sxzz/prettier-config": "^1.0.4",
     "@types/node": "^18.17.1",
     "eslint": "^8.46.0",
-    "eslint-define-config": "^1.22.0",
     "fast-glob": "^3.3.1",
     "prettier": "^3.0.0",
     "tsup": "^7.2.0",
@@ -31,5 +30,6 @@
   },
   "engines": {
     "node": ">=16.14.0"
-  }
+  },
+  "prettier": "@sxzz/prettier-config"
 }
