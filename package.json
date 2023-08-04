@@ -6,8 +6,8 @@
   "description": "Monorepo of project-name",
   "license": "MIT",
   "scripts": {
-    "build": "turbo run build --filter=\"./packages/*\"",
-    "dev": "turbo run dev --filter=\"./packages/*\"",
+    "build": "pnpm run --filter=\"./packages/*\" build",
+    "dev": "pnpm run --filter=\"./packages/*\" dev",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
     "lint:fix": "pnpm run lint --fix",
     "test": "vitest",
@@ -24,13 +24,12 @@
     "eslint-define-config": "^1.22.0",
     "fast-glob": "^3.3.1",
     "prettier": "^3.0.0",
-    "tsup": "^7.1.0",
+    "tsup": "^7.2.0",
     "tsx": "^3.12.7",
-    "turbo": "^1.10.12",
     "typescript": "^5.1.6",
     "vitest": "^0.33.0"
   },
   "engines": {
-    "node": ">=14.19.0"
+    "node": ">=16.14.0"
   }
 }

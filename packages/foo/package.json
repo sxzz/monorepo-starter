@@ -18,7 +18,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsup && tsx ../../scripts/postbuild.mts"
+    "build": "tsup"
   },
   "devDependencies": {},
   "engines": {
