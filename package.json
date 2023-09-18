@@ -2,7 +2,7 @@
   "name": "project-name-monorepo",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@8.7.4",
+  "packageManager": "pnpm@8.7.6",
   "description": "Monorepo of project-name",
   "license": "MIT",
   "scripts": {
@@ -19,12 +19,12 @@
     "@changesets/cli": "^2.26.2",
     "@sxzz/eslint-config": "^3.5.4",
     "@sxzz/prettier-config": "^1.0.4",
-    "@types/node": "^18.17.15",
+    "@types/node": "^18.17.17",
     "eslint": "^8.49.0",
     "fast-glob": "^3.3.1",
     "prettier": "^3.0.3",
     "tsup": "^7.2.0",
-    "tsx": "^3.12.8",
+    "tsx": "^3.12.10",
     "typescript": "^5.2.2",
     "vitest": "^0.34.4"
   },
