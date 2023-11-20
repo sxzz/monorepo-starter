@@ -18,7 +18,7 @@
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.2",
     "@sxzz/eslint-config": "^3.7.4",
-    "@sxzz/prettier-config": "^1.0.4",
+    "@sxzz/prettier-config": "^2.0.0",
     "@types/node": "^20.9.0",
     "eslint": "^8.53.0",
     "fast-glob": "^3.3.2",
