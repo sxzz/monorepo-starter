@@ -19,7 +19,7 @@
     "@changesets/cli": "^2.27.1",
     "@sxzz/eslint-config": "^3.8.7",
     "@sxzz/prettier-config": "^2.0.1",
-    "@types/node": "^20.11.30",
+    "@types/node": "^20.12.2",
     "eslint": "^8.57.0",
     "fast-glob": "^3.3.2",
     "prettier": "^3.2.5",
