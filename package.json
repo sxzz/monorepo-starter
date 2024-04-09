@@ -4,6 +4,7 @@
   "private": true,
   "packageManager": "pnpm@8.15.6",
   "description": "Monorepo of project-name",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "build": "pnpm run --filter=\"./packages/*\" build",
@@ -29,7 +30,7 @@
     "vitest": "^1.4.0"
   },
   "engines": {
-    "node": ">=16.14.0"
+    "node": ">=18.12.0"
   },
   "prettier": "@sxzz/prettier-config"
 }
