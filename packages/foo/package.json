@@ -3,21 +3,18 @@
   "version": "0.0.0",
   "packageManager": "pnpm@9.0.6",
   "description": "My awesome typescript library",
+  "type": "module",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": {
-        "require": "./dist/index.d.ts",
-        "import": "./dist/index.d.mts"
-      },
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
     },
     "./*": "./*"
   },
@@ -29,6 +26,6 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=14.19.0"
+    "node": ">=18.16.0"
   }
 }
