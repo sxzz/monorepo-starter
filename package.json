@@ -2,7 +2,7 @@
   "name": "project-name-monorepo",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.6.2",
+  "packageManager": "pnpm@10.6.3",
   "description": "Monorepo of project-name",
   "type": "module",
   "license": "MIT",
@@ -16,10 +16,10 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^6.0.1",
+    "@sxzz/eslint-config": "^6.0.2",
     "@sxzz/prettier-config": "^2.2.1",
     "@types/node": "^22.13.10",
-    "bumpp": "^10.0.3",
+    "bumpp": "^10.1.0",
     "eslint": "^9.22.0",
     "prettier": "^3.5.3",
     "tsup": "^8.4.0",
