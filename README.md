@@ -18,4 +18,4 @@ npm i @scope/foo
 
 ## License
 
-[MIT](./LICENSE) License © 2024 [三咲智子](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2025 [三咲智子](https://github.com/sxzz)
