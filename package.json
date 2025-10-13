@@ -2,7 +2,7 @@
   "name": "project-name-monorepo",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.18.0",
+  "packageManager": "pnpm@10.18.2",
   "description": "Monorepo of project-name",
   "type": "module",
   "license": "MIT",
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^7.2.7",
     "@sxzz/prettier-config": "^2.2.4",
-    "@types/node": "^24.7.0",
+    "@types/node": "^24.7.2",
     "bumpp": "^10.3.1",
     "eslint": "^9.37.0",
     "prettier": "^3.6.2",
