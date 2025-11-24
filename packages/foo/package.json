@@ -1,7 +1,7 @@
 {
   "name": "@scope/foo",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.23.0",
   "description": "My awesome typescript library",
   "type": "module",
   "license": "MIT",
