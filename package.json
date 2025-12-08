@@ -18,17 +18,17 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.4.0",
+    "@sxzz/eslint-config": "^7.4.1",
     "@sxzz/prettier-config": "^2.2.6",
     "@types/node": "^24.10.1",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
-    "prettier": "^3.7.3",
+    "prettier": "^3.7.4",
     "publint": "^0.3.15",
-    "tsdown": "^0.16.8",
+    "tsdown": "^0.17.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.14"
+    "vitest": "^4.0.15"
   },
   "engines": {
     "node": ">=20.18.0"
