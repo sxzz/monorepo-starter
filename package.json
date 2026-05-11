@@ -2,7 +2,7 @@
   "name": "project-name-monorepo",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@10.33.4",
   "description": "Monorepo of project-name",
   "type": "module",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "eslint": "^10.2.0",
     "prettier": "^3.8.2",
     "publint": "^0.3.18",
-    "tsdown": "^0.21.7",
+    "tsdown": "^0.22.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "vitest": "^4.1.4"
